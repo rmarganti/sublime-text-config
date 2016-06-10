@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:owner}:
+    targetEntity: ${2:Entity}
+    inversedBy: ${3:this_table}
+    joinColumn:
+        name: ${4:owner}_id
+        referencedColumnName: ${5:id}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>mto</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.yaml</scope>
+</snippet>

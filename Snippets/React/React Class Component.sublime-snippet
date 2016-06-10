@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[
+import React from 'react';
+
+export default class ${1:ComponentName} extends React.Component {
+    constructor(props) {
+        super(props);
+    }
+
+    render() {
+        const {$2} = this.props;
+        $3
+    }
+}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>rcc</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+</snippet>

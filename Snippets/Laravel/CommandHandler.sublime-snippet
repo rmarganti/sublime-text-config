@@ -1,0 +1,24 @@
+<snippet>
+    <content><![CDATA[
+namespace App\\${1:Entity}\Handlers;
+
+use App\\$1\\Commands\\${2:DoSomething}Command;
+
+class $2CommandHandler
+{
+    public function __construct()
+    {
+
+    }
+
+    public function handle($2Command \$command)
+    {
+        $3
+    }
+}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>handle</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+</snippet>

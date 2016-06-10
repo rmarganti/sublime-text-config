@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+Symfony\Component\HttpFoundation\JsonResponse
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>jr</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+</snippet>

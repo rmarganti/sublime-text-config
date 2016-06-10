@@ -1,0 +1,8 @@
+{
+	"enable_auto_align": true,
+	"format_on_save": false,
+	"php_bin": "/usr/local/php5/bin/php",
+	"psr1": true,
+	"psr2": true,
+	"version": 1
+}

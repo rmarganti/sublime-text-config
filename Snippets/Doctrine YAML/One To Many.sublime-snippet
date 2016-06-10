@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:[inverse]}:
+    targetEntity: ${2:[InverseEntity]}
+    mappedBy: ${3:[this table]}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>otm</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.yaml</scope>
+</snippet>

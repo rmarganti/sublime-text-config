@@ -1,0 +1,22 @@
+<snippet>
+    <content><![CDATA[
+namespace App\\${1:Entity}\Commands;
+
+class ${2:DoSomething}Command
+{
+    /**
+     * @var string
+     */
+    public \$${3:property};
+
+    public function __construct(\$$3)
+    {
+        \$this->$3 = \$$3;
+    }
+}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>command</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+</snippet>

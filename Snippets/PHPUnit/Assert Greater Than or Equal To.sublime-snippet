@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+\$this->assertGreaterThanOrEqual(${1:expected}, ${2:actual});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>puagtoeq</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+</snippet>

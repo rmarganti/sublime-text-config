@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+<div class="form-group">
+    <label for="${1:name}">${2:Name}:</label>
+    <textarea type="text" name="${1:name}" id="${1:name}" class="form-control">{{ old('${1:name}') }}</textarea>
+</div>
+${3}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>textareafield</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.html.laravel-blade</scope>
+</snippet>

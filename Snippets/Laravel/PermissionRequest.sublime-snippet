@@ -1,0 +1,32 @@
+<snippet>
+    <content><![CDATA[
+namespace App\Http\Requests;
+
+use App\Http\Requests\PermissionRequest;
+use Auth;
+
+class ${1}Request extends PermissionRequest
+{
+    public function getNeededPermissionName()
+    {
+        return '${2}';
+    }
+
+    /**
+     * Get the validation rules that apply to the request.
+     *
+     * @return array
+     */
+    public function rules()
+    {
+        return [
+            ${3://} 
+        ];
+    }
+}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>request</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+</snippet>

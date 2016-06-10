@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+\$this->assertContains(${1:value}, ${2:\$array});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>puacont</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+</snippet>
