@@ -1,17 +1,13 @@
 <snippet>
     <content><![CDATA[
-use Mockery as m;
-
-class ${1:Product}Test extends PHPUnit_Framework_TestCase 
-{
-    public function setUp()
-    {
-        $2 
-    }
-}
+${1:[inverse]}:
+    targetEntity: ${2:[InverseEntity]}
+    joinColumn:
+        name: ${3:target}_id
+        referencedColumnName: id
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>putc</tabTrigger>
+    <tabTrigger>oto</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
-    <scope>source.php</scope>
+    <scope>source.yaml</scope>
 </snippet>

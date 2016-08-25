@@ -1,17 +1,10 @@
+
 <snippet>
     <content><![CDATA[
-use Mockery as m;
-
-class ${1:Product}Test extends PHPUnit_Framework_TestCase 
-{
-    public function setUp()
-    {
-        $2 
-    }
-}
+\$this->assertInstanceOf(${1:class or interface}, ${2:value});
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>putc</tabTrigger>
+    <tabTrigger>puaio</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.php</scope>
 </snippet>
