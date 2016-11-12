@@ -30,6 +30,7 @@
 		"SublimeLinter",
 		"SublimeLinter-contrib-eslint",
 		"SublimeLinter-csslint",
-		"SublimeLinter-php"
+		"SublimeLinter-php",
+		"tern_for_sublime"
 	]
 }
