@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+\$startTime = microtime(true);
+echo "${1:functionName()}:  " . number_format((microtime(true) - \$startTime), 4) . " Seconds\n";
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>etp</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+</snippet>

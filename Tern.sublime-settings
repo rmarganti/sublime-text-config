@@ -1,0 +1,6 @@
+{
+    "tern_command": [
+        "node", 
+        "/usr/local/bin/tern"
+    ]
+}

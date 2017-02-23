@@ -13,7 +13,7 @@
 		{
 			"csslint":
 			{
-				"@disable": false,
+				"@disable": true,
 				"args":
 				[
 				],
@@ -32,6 +32,8 @@
 				],
 				"excludes":
 				[
+					"**/test/*.spec.js",
+					"**/test/*.test.js"
 				]
 			},
 			"php":

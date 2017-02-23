@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+\$this->assertNotEquals(${1:"banana"}, ${2:\$this->value});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>puaneq</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+</snippet>

@@ -1,7 +1,7 @@
 {
 	"autoimport": true,
 	"enable_auto_align": true,
-	"format_on_save": true,
+	"format_on_save": false,
 	"passes":
 	[
 		"IndentTernaryConditions"
